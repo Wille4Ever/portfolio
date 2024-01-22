@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dit Navn - Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #000;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 0;
+      background: url('background.jpg') repeat 0 0;
+      background-attachment: fixed; /* Parallax-effekt */
+      background-size: cover;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+
+    .portfolio-item {
+      width: 80%;
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .portfolio-item:hover {
+      transform: scale(1.05);
+    }
+
+    .project-image {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      background: #333;
+      color: #bbb;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      margin-top: 20px; /* Tilføjet mellemrum mellem Projekt 3 og footer */
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Wille4Ever</h1>
+    <p>Web Developer | Roblox Clothing Designer</p>
+  </header>
+
+  <div class="portfolio-item">
+    <img src="project1.jpg" alt="Projekt 1" class="project-image">
+    <h2>Projekt 1</h2>
+    <p>Beskrivelse af projektet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+
+  <div class="portfolio-item">
+    <img src="project2.jpg" alt="Projekt 2" class="project-image">
+    <h2>Projekt 2</h2>
+    <p>Beskrivelse af projektet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+
+  <div class="portfolio-item">
+    <img src="project3.jpg" alt="Projekt 3" class="project-image">
+    <h2>Projekt 3</h2>
+    <p>Beskrivelse af projektet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+
+  <footer>
+    &copy; 2024 All rights served.
+  </footer>
+
+</body>
+</html>
